@@ -1,0 +1,175 @@
+html{
+	background-color:#FFB0AD;
+	text-align:justify;
+
+}
+
+#titlebanner{
+	margin-top:0%;
+	width:100%;
+
+}
+
+a{
+	color:#4B4D5B;
+}
+
+ul{
+  padding-left:5px;
+  list-style-type: square;  
+}	
+
+
+
+table
+{
+	height:170px;
+	border-top-width:0;
+	border-color:#FFB0AD;
+	font-family:"Garamond", monospace;
+
+}
+
+	
+td{	
+	border:32px solid;
+	border-top-width:20px;
+	border-color:#FFB0AD;
+	padding:20px;
+	width: 15%;
+	vertical-align: top;
+	color:#4B4D5B;
+	
+}
+
+#citationslink
+{
+	padding-left:18%;
+}
+
+.short{
+	height:60%;
+	width: 100%;
+	text-align: left;
+	line-height: 100px;
+	padding-left:10%;
+	font-size:20px
+}	
+
+.subheadings
+{
+	background-color:white;
+	background-image:url("Images/bluegrid1.jpg");
+	padding-left: 45px;
+	padding-right: 0px;
+	padding-top:30px;
+	padding-bottom:30px;
+	background-size:100%;	
+}
+	
+
+#colourfultv
+{
+	float:right;
+	margin-right:2%;
+	height:400px;
+}
+#tableofcontent
+{
+	padding-top:25%;
+	padding-left:10%;
+	font-weight:bold;
+	font-size:25px;
+}
+#cell_1
+{
+	margin-left:5%;
+	text-align:left;
+	font-family:"Garamond", monospace;
+	background-image:url("Images/purplegrid.jpg");
+	color:#4B4D5B;
+	background-size:100%;
+	padding-left: 45px;
+	padding-right: 0px;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+#pre-productionheading
+{
+	background-image:url("Images/Pre-production.jpg");
+	background-size:100%;
+	padding:8%;
+	
+}
+
+#production
+{
+	background-image:url("Images/Production.jpg");
+}
+
+#post-production
+{
+	background-image:url("Images/Post-production.jpg");
+}
+
+.h1Title{
+	background-color: #FACFBC;
+	width: 50%;
+	margin: 0 auto;
+	
+}
+
+.banner
+{
+	padding:10%;
+	margin-left:0%;
+	margin-right:0%;
+	text-align:center;
+	font-size:30px
+}
+
+h2
+{
+	margin-left:5%;
+	margin-right:50%;
+	font-size:25px
+	padding:5%;
+
+}
+
+p
+{
+	margin-left:5%;
+	margin-right:50%;
+	font-family:"Courier New", monospace;
+	font-size:18px;
+	line-height:35px;
+	padding:2%;
+	border-radius:25px;
+
+}
+.pink
+{
+	background-color:#F3B6BE;
+}
+
+.orange
+{
+	background-color:#FFD5B0;
+}
+
+.yellow
+{
+	background-color:#F8EDB9;
+}
+
+.green
+{
+	background-color:#D0F2BD;
+}
+
+.turquoise
+{
+	background-color:#B9EED5;
+}
