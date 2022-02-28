@@ -305,22 +305,130 @@ h2
 	text-align:right;
 	background-image:url("Images/beforefilmingbackground.jpg");
 	background-size:100%;
-	margin-top:45%;
+	margin-top:40%;
 	padding-bottom:13%;
 	background-repeat:no-repeat;
 }
 #beforefilmingparagraph
 { 
 	margin-top:0%;
-	margin-left:3%;
-	padding-top:2%;
-	font-size:95%;
+	margin-left:2%;
+	padding-top:0%;
+	font-size:85%;
 }
 #beforefilming
 {
-	margin-bottom:0%;
-	padding-top:0%;
 	margin-top:2%;
+	padding-bottom:0%;
+	margin-bottom:0%;
+}
+#locationsdiv
+{
+	background-image:url("Images/locationsbackground.jpg");
+	background-size:98%;
+	padding-bottom:8%;
+	padding-left:30%;
+	margin-right:0%;
+	padding-right:0%;
+}
+#locationsparagraph
+{
+	margin-right:0%;
+	padding-right:2%;
+}
+#locations
+{
+	font-size:2em;
+	text-align:center;
+	padding-left:10%;
+	
+}
+
+#photographycrewdiv
+{
+	background-image:url("Images/photographycrewbackground.jpg");
+	padding-bottom:1%;
+	background-size:100%;
+	margin-top:4%;
+	padding-left:22%;
+	padding-top:5%;
+	margin-right:0%;
+}
+#photographycrew
+{
+	font-size:2em;
+}
+#photographycrewparagraph
+{
+	padding-left:25%;
+	margin-right:9%;
+	padding-top:9%;
+}
+#photographycrew2
+{
+	margin-right:2%;
+	padding-right:15%;
+}
+#editingdiv
+{
+	padding:1%;
+	text-align:right;
+	background-image:url("Images/Editingbackground.jpg");
+	background-size:100%;
+	margin-top:40%;
+	padding-bottom:13%;
+	background-repeat:no-repeat;
+}
+#editing
+{
+	margin-top:2%;
+	padding-bottom:0%;
+	margin-bottom:0%;
+}
+#sounddesigningbackground
+{
+	background-image:url("Images/sounddesigningbackground.jpg");
+	background-size:98%;
+	padding-bottom:8%;
+	padding-left:30%;
+	margin-right:0%;
+	padding-right:0%;
+}	
+#sounddesigning
+{
+	font-size:2em;
+	text-align:center;
+	padding-left:10%;
+}	
+#visualeffectsdiv
+{
+	image-background:url("Images/visualeffectsbackground.jpg");
+	padding-bottom:3.5%;
+	background-size:99.5%;
+	margin-top:4%;
+	padding-left:22%;
+	padding-top:5%;
+	margin-right:5%;
+}
+#visualeffects
+{
+	font-size:2em;
+}
+#distributiondiv
+{
+	image-background:url("Images/distributionbackground.jpg");
+	background-size: 100%;
+	padding-bottom:40%;
+	background-repeat:no-repeat;
+	padding-left:25%;
+	padding-top:23%;
+	padding-bottom:12%;
+	margin-top:10%;
+}
+#distribution 
+{
+	padding-left:2%;
+	font-size:1.5em;
 }
 p
 {
