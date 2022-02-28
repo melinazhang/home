@@ -17,7 +17,6 @@ a{
 
 ul{
 	padding-left:5px;
-	list-style-type: square;  
 }	
 
 
@@ -57,7 +56,7 @@ td{
 	padding-top:6%;
 	padding-bottom:5%;
 	background-repeat:no-repeat;
-	font-size:15px;
+	font-size:100%;
 }
 #purplegrid
 {
@@ -66,21 +65,14 @@ td{
 }
 #indextable
 {
-	margin-left:10%;
+	margin-left: auto;
+	margin-right: auto;
 }
-.short{
-	height:100px;
-	width: 100%;
-	text-align: left;
-	line-height: 100px;
-	padding-left:20%;
-	font-size:17px;
-	background-repeat:no-repeat;
-}	
+
 #introductionheading
 {
 	padding:2%;
-	font-size:40px;
+	font-size:2.5em;
 	padding-bottom:1%;
 	background-color:#DB9D8C;
 	width:24%;
@@ -95,11 +87,11 @@ td{
 	padding:2%;
 	padding-bottom:2%;
 	letter-spacing:1px;
-	line-height:27px;
+	line-height:1.65em;
 	width:33%;
 	height:25%;
 	margin-left:5%;
-	font-size:17px;
+	font-size:105%;
 }
 #introductionparagraph2
 {
@@ -119,7 +111,7 @@ td{
 {
 	float:right;
 	margin-right:2%;
-	height:400px;
+	height:100%;
 }
 .explanation
 {
@@ -129,11 +121,10 @@ td{
 	width:50%;
 	margin-left:20%;
 	margin-top:10%;
-	border-radius:0px;
 	z-index: 100;
 	position: absolute;
-	font-size:18px;
-	line-height:35px;
+	font-size:110%;
+	line-height:180%;
 	font-family:"Courier New", monospace;
 }
 .bordersquares
@@ -171,15 +162,14 @@ td{
 {
 	padding:10%;
 	text-align:center;
-	font-size:30px
+	font-size:2em;
 }
 
 h2
 {
 	margin-left:5%;
 	margin-right:62%;
-	font-size:25px
-	padding:5%;
+	font-size:100%;
 }
 
 .firstparagraph
@@ -191,7 +181,7 @@ h2
 #writingheading
 {
 	margin-bottom:1%;
-	font-size:30px;
+	font-size:2em;
 	margin-top:8%;
 }
 #writing
@@ -224,17 +214,17 @@ h2
 }
 #theartdepartment
 {
-	margin-top:1%;
+	margin-top:0.01%;
 	color:#E4A0A1;
+	font-size:1.5em;
 }
 #theartdepartmentparagraph
 {
 	margin-top:0%;
 	padding-top:0%;
 	padding-right:3%;
-	color:#F1E0D6;
-	background-color:#FFB0AD;
-	background: linear-gradient(120deg, #e4a0a1 0%, #e4a0a1 100%);
+	color:#788149;
+	background-color:#E6CDC6;
     background-repeat: no-repeat;
     background-size: 100%, 80%;
 }
@@ -253,8 +243,8 @@ h2
 	margin-top:15%;
 	margin-bottom:0%;
 	padding-bottom:0%;
-	font-size:14px;
-	line-height:30px;
+	font-size:90%;
+	line-height:240%;
 }
 #castingactorsdiv2
 {
@@ -262,27 +252,25 @@ h2
 	margin-right:23%;
 	margin-top:0%;
 	padding-top:0%;
-	font-size:14px;
-	line-height:30px;
+	font-size:90%;
+	line-height:240%;
 }
+#top
+{	
+	padding-top:0%;
+	margin-top:1%;
+}
+	
 #castingactorsheading
 {
 	margin-left:24%;
-	padding-top:5%;
 	text-align: center;
     width: 15%;
     float: left;
-	font-size:35px;
+	font-size:2em;
+	padding-top:5%;
 }
-#DirectOffer
-{
-	margin-left:45%;
-	margin-top:0%;
-	padding-top:0%;
-    text-align: center;
-    width: 87%;
-    float: right;
-}
+
 #Auditioning
 {
 	text-align: center;
@@ -291,13 +279,57 @@ h2
 	margin-left:26.5%;
 	margin-top:15%;
 }
+#scheduling
+{
+	margin-top:10%;
+	background-image:url("Images/schedulingbackground.jpg");
+	background-size: 100%;
+	padding-bottom:40%;
+	background-repeat:no-repeat;
+	padding-left:25%;
+	padding-top:23%;
+	padding-bottom:12%;
+}
+#schedulingheading
+{
+	padding-left:2%;
+	font-size:1.5em;
+}
+#schedulingparagraph
+{
+	margin-right:15%;
+	padding-bottom:2%;
+}
+#beforefilmingdiv
+{
+	padding:1%;
+	text-align:right;
+	background-image:url("Images/beforefilmingbackground.jpg");
+	background-size:100%;
+	margin-top:45%;
+	padding-bottom:13%;
+	background-repeat:no-repeat;
+}
+#beforefilmingparagraph
+{ 
+	margin-top:0%;
+	margin-left:3%;
+	padding-top:2%;
+	font-size:95%;
+}
+#beforefilming
+{
+	margin-bottom:0%;
+	padding-top:0%;
+	margin-top:2%;
+}
 p
 {
 	margin-left:5%;
 	margin-right:60%;
 	font-family:"Courier New", monospace;
-	font-size:15px;
-	line-height:30px;
+	font-size:100%;
+	line-height:2em;
 	padding:2%;
 	border-radius:15px;
 }
