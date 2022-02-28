@@ -299,6 +299,10 @@ h2
 	margin-right:15%;
 	padding-bottom:2%;
 }
+#productionlink
+{
+	background-image:url("Images/purplegrid1.jpg");
+}
 #beforefilmingdiv
 {
 	padding:1%;
@@ -321,6 +325,7 @@ h2
 	margin-top:2%;
 	padding-bottom:0%;
 	margin-bottom:0%;
+	font-size:1.5em;
 }
 #locationsdiv
 {
@@ -369,6 +374,10 @@ h2
 {
 	margin-right:0%;
 	padding-right:5%;
+}
+#post-productionlink
+{
+	background-image:url("Images/purplegrid1.jpg");
 }
 #editingdiv
 {
