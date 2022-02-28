@@ -16,8 +16,8 @@ a{
 }
 
 ul{
-  padding-left:5px;
-  list-style-type: square;  
+	padding-left:5px;
+	list-style-type: square;  
 }	
 
 
@@ -28,30 +28,46 @@ table
 	border-color:#FFB0AD;
 	font-family:"Garamond", monospace;
 	margin-top:2%;
+	width: 80%;
+	text-align:left;
+	align:center;
 }
 
 tr{
 	height: 200px;
 }	
 td{	
-	//height: 20px;
 	border-left:20px solid;
-	border-right:20px solid;
-	//border-top-width:20px;
 	border-color:#FFB0AD;
-	padding:15%;
-	width: 15%;
+	padding:10%;
+	width: 25%;
 	vertical-align: top;
 	color:#4B4D5B;
 	background-repeat:no-repeat;
-	
 }
 
-#citationslink
+
+
+.subheadings
 {
-	padding-left:25%;
+	background-image:url("Images/bluegrid1.jpg");
+	background-size:100%;
+	padding-left:9%;
+	padding-right:1%;
+	padding-top:6%;
+	padding-bottom:5%;
+	background-repeat:no-repeat;
+	font-size:15px;
 }
-
+#purplegrid
+{
+	padding-top:5%;
+	background-image:url("Images/purplegrid1.jpg")
+}
+#indextable
+{
+	margin-left:10%;
+}
 .short{
 	height:100px;
 	width: 100%;
@@ -61,20 +77,6 @@ td{
 	font-size:17px;
 	background-repeat:no-repeat;
 }	
-
-.subheadings
-{
-	background-image:url("Images/bluegrid1.jpg");
-	background-size:100%;
-	//height: 30px;
-	padding-left: 3%;
-	padding-right: 1%;
-	padding-top:2%;
-	padding-bottom:0%;
-	
-	background-repeat:no-repeat;
-	font-size: 15px;
-}
 #introductionheading
 {
 	padding:2%;
@@ -89,23 +91,28 @@ td{
 .introductionparagraph
 {
 	background-color:#f2e2d3;
-	margin-bottom:30px;
-	padding:1.5%;
+	margin-bottom:0%;
+	padding:2%;
+	padding-bottom:2%;
 	letter-spacing:1px;
 	line-height:27px;
 	width:33%;
-	height:40%;
+	height:25%;
 	margin-left:5%;
 	font-size:17px;
+}
+#introductionparagraph2
+{
+	height:35%;
 }
 #introduction
 {
 	background-color:#FACFBC;
 	background-image:url("Images/tvgirl.jpg");
 	background-repeat:no-repeat;
-	background-size:55.5%;
+	background-size:55%;
 	background-position:100%;
-	padding-bottom: 3%;
+	padding-bottom: 2%;
 }
 	
 #colourfultv
@@ -113,25 +120,6 @@ td{
 	float:right;
 	margin-right:2%;
 	height:400px;
-}
-#tableofcontent
-{
-	padding-top:25%;
-	padding-left:10%;
-	font-weight:bold;
-	font-size:25px;
-}
-#cell_1
-{
-	text-align:left;
-	font-family:"Garamond", monospace;
-	background-image:url("Images/purplegrid.jpg");
-	color:#4B4D5B;
-	background-size:100%;
-	padding-left: 45px;
-	padding-right: 0px;
-	padding-top:30px;
-	padding-bottom:30px;
 }
 .explanation
 {
@@ -158,7 +146,7 @@ td{
 	background-image:url("Images/Pre-production.jpg");
 	background-size:100%;
 	padding:8%;
-	margin-top:7%;
+	margin-top:5%;
 	
 }
 
@@ -189,25 +177,124 @@ td{
 h2
 {
 	margin-left:5%;
-	margin-right:50%;
+	margin-right:62%;
 	font-size:25px
 	padding:5%;
 }
 
 .firstparagraph
 {
-	margin-top:40%;
+	margin-top:5%;
+	margin-bottom:20%;
+	font-size:30px;
+}
+#writingheading
+{
+	margin-bottom:1%;
+	font-size:30px;
+	margin-top:8%;
 }
 #writing
 { 
-	background-color:#C5D7EF;
-	padding:15%;
+	padding:1%;
 	text-align:right;
+	background-image:url("Images/collage.jpg");
+	background-size:100%;
+	margin-top:45%;
+	padding-bottom:13%;
+	background-repeat:no-repeat;
+}
+
+#collage{
+	float: right;
+	width: 100%;
+}
+
+#theartdepartmentdiv
+{
+	text-align:center;
+	padding-left:35%;
+	padding-top:1%;
+	padding-bottom:5%;
+	margin-top:5%;
+	background-image:url("Images/theartdepartmentbackground.jpg");
+	background-size:98%;
+	font-weight:bold;
+	margin-bottom:5%;
+}
+#theartdepartment
+{
+	margin-top:1%;
+	color:#E4A0A1;
+}
+#theartdepartmentparagraph
+{
+	margin-top:0%;
+	padding-top:0%;
+	padding-right:3%;
+	color:#F1E0D6;
+	background-color:#FFB0AD;
+	background: linear-gradient(120deg, #e4a0a1 0%, #e4a0a1 100%);
+    background-repeat: no-repeat;
+    background-size: 100%, 80%;
+}
+#castingactors
+{
+	background-image:url("Images/castingactorsbackground.jpg");
+	padding-bottom:15%;
+	background-size:100%;
+	background-repeat:no-repeat;
+	font-family:"Courier New", monospace;
+}
+#castingactorsdiv
+{
+	margin-left:47%;
+	margin-right:9%;
+	margin-top:15%;
+	margin-bottom:0%;
+	padding-bottom:0%;
+	font-size:14px;
+	line-height:30px;
+}
+#castingactorsdiv2
+{
+	margin-left:47%;
+	margin-right:23%;
+	margin-top:0%;
+	padding-top:0%;
+	font-size:14px;
+	line-height:30px;
+}
+#castingactorsheading
+{
+	margin-left:24%;
+	padding-top:5%;
+	text-align: center;
+    width: 15%;
+    float: left;
+	font-size:35px;
+}
+#DirectOffer
+{
+	margin-left:45%;
+	margin-top:0%;
+	padding-top:0%;
+    text-align: center;
+    width: 87%;
+    float: right;
+}
+#Auditioning
+{
+	text-align: center;
+    width: 15%;
+    float: left;
+	margin-left:26.5%;
+	margin-top:15%;
 }
 p
 {
 	margin-left:5%;
-	margin-right:50%;
+	margin-right:60%;
 	font-family:"Courier New", monospace;
 	font-size:15px;
 	line-height:30px;
