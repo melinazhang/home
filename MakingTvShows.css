@@ -203,7 +203,7 @@ h2
 {
 	text-align:center;
 	padding-left:35%;
-	padding-top:1%;
+	padding-top:0.2%;
 	padding-bottom:5%;
 	margin-top:5%;
 	background-image:url("Images/theartdepartmentbackground.jpg");
@@ -216,6 +216,8 @@ h2
 	margin-top:0.01%;
 	color:#E4A0A1;
 	font-size:1.5em;
+	padding-left:10%;
+	padding-right:15;
 }
 #theartdepartmentparagraph
 {
@@ -283,11 +285,10 @@ h2
 	margin-top:10%;
 	background-image:url("Images/schedulingbackground.jpg");
 	background-size: 100%;
-	padding-bottom:40%;
 	background-repeat:no-repeat;
 	padding-left:25%;
 	padding-top:23%;
-	padding-bottom:12%;
+	padding-bottom:50px;
 }
 #schedulingheading
 {
@@ -454,11 +455,14 @@ h2
 #citationslink
 {
 	background-image: url("Images/purplegrid1.jpg");
-	background-color: none;
 }
 #indextable1
 {
 	padding-bottom:15%;
+}
+.align
+{
+	padding-right:10%;
 }
 p
 {
