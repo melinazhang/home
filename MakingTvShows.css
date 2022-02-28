@@ -307,7 +307,7 @@ h2
 #beforefilmingdiv
 {
 	padding:1%;
-	text-align:right;
+	//text-align:right;
 	background-image:url("Images/beforefilmingbackground.jpg");
 	background-size:100%;
 	margin-top:40%;
@@ -317,7 +317,7 @@ h2
 #beforefilmingparagraph
 { 
 	margin-top:0%;
-	margin-left:2%;
+	//margin-left:2%;
 	padding-top:0%;
 	font-size:85%;
 }
@@ -383,8 +383,10 @@ h2
 }
 #editingdiv
 {
-	padding:1%;
-	text-align:right;
+	//padding:1%;
+	//text-align:right;
+	
+	padding-top: 3px;	
 	background-image:url("Images/Editingbackground.jpg");
 	background-size:100%;
 	margin-top:40%;
@@ -399,6 +401,13 @@ h2
 	font-size:1.5em;
 	
 }
+
+#editing+p{
+	margin-left: 2%;
+    margin-right: 55%;
+	
+}
+
 #sounddesigningdiv
 {
 	background-image:url("Images/sounddesigningbackground.jpg");
