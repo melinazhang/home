@@ -49,7 +49,7 @@ td{
 .subheadings
 {
 	background-image:url("Images/bluegrid1.jpg");
-	background-size:100%;
+	background-size:100% 100%;
 	padding-left:9%;
 	padding-right:1%;
 	padding-top:6%;
