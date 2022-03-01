@@ -141,6 +141,7 @@ td{
 #production
 {
 	background-image:url("Images/Production.jpg");
+	margin-top:5%;
 }
 
 #post-production
@@ -225,14 +226,17 @@ h2
 	
 }
 
-#theartdepartmentdiv p{
+#theartdepartmentp{
+sounddesigning
+}
+#theartdepartmentparagraph
+{
 	margin-top:3%;
 	margin-right:35%;
 	margin-left:35%;
 	padding-top:0%;
 	padding-right:3%;
 	color:#788149;
-	background-color:#E6CDC6;
     background-repeat: no-repeat;
     background-size: 100%, 100%;
 }
@@ -258,11 +262,11 @@ h2
 #castingactorsdiv
 {	
 	background-image:url("Images/castingactorsbackground.jpg");
-	padding-bottom:1%;
+	padding-bottom:40%;
 	background-repeat:no-repeat;
 	padding-top:5%;
 	font-family:"Courier New", monospace;
-	margin-bottom:0%;
+	margin-bottom:5%;
 	background-size:100%;
 }
 
@@ -411,7 +415,7 @@ h2
 	margin-top:1px;
 	padding-bottom:7%;
 	background-repeat:no-repeat;
-	margin-bottom:1px;
+	margin-bottom:5%;
 }
 #editing
 {
@@ -432,10 +436,10 @@ h2
 {
 	background-image:url("Images/sounddesigningbackground.jpg");
 	background-size:98% 100%;
-	padding-bottom:3%;
+	padding-bottom:7%;
 	padding-left:30%;
 	margin-right:0%;
-	margin-top:1px;
+	margin-top:10%;
 	margin-top:1px;
 	padding-right:0%;
 }	
@@ -450,10 +454,18 @@ h2
 }	
 #sounddesigningparagraph
 {
-	margin-right:50%;
+
 	font-size:90%;
 	background-color:#E6CDC6;
+	padding:0.1em 0.2em;
+
 }
+#sounddesigningp
+{	
+	margin-right:50%;
+	font-size:90%;
+}
+	
 #visualeffectsdiv
 {
 	background-image:url("Images/visualeffectsbackground.jpg");
