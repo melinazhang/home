@@ -6,7 +6,7 @@ html{
 }
 
 #titlebanner{
-	margin-top:0%;
+	margin-top:2%;
 	width:100%;
 
 }
@@ -106,12 +106,6 @@ td{
 	padding-bottom: 2%;
 }
 	
-#colourfultv
-{
-	float:right;
-	margin-right:2%;
-	height:100%;
-}
 .explanation
 {
 	
@@ -177,7 +171,7 @@ h2
 
 .firstparagraph
 {
-	margin-top:5px;
+	margin-top:5%;
 	margin-bottom:20%;
 	font-size:100%;
 }
@@ -323,7 +317,7 @@ h2
 	background-image:url("Images/beforefilmingbackground.jpg");
 	background-size:100% 100%;
 	margin-top:5%;
-	padding-bottom:13%;
+	padding-bottom:7%;
 	background-repeat:no-repeat;
 	margin-bottom:5%;
 }
@@ -355,6 +349,7 @@ h2
 {
 	margin-right:0%;
 	padding-right:0%;
+	background-color:#E6CDC6;
 }
 #locations
 {
@@ -410,19 +405,19 @@ h2
 {
 	padding-left:3%;
 	padding-right:17%;
-	padding-top: 2%;	
+	padding-top: 1%;	
 	background-image:url("Images/Editingbackground.jpg");
 	background-size:100% 100%;
-	margin-top:40%;
+	margin-top:1px;
 	padding-bottom:7%;
 	background-repeat:no-repeat;
-	margin-bottom:5%;
+	margin-bottom:1px;
 }
 #editing
 {
 	margin-top:2%;
 	padding-bottom:5%;
-	margin-bottom:1%;
+	margin-bottom:1px;
 	font-size:1.5em;
 	padding-left:4%;
 }
@@ -440,6 +435,8 @@ h2
 	padding-bottom:3%;
 	padding-left:30%;
 	margin-right:0%;
+	margin-top:1px;
+	margin-top:1px;
 	padding-right:0%;
 }	
 #sounddesigning
@@ -449,12 +446,13 @@ h2
 	padding-left:15%;
 	padding-top:1%;
 	padding-bottom:0%;
-	margin-bottom:0%;
+	margin-bottom:0px;
 }	
 #sounddesigningparagraph
 {
 	margin-right:50%;
 	font-size:90%;
+	background-color:#E6CDC6;
 }
 #visualeffectsdiv
 {
@@ -485,16 +483,16 @@ h2
 	padding-bottom:40%;
 	background-repeat:no-repeat;
 	padding-left:25%;
-	padding-top:35%;
-	padding-bottom:12%;
-	margin-top:10%;
+	padding-top:20%;
+	padding-bottom:5%;
+	margin-top:5%;
 	padding-right:15%;
 }
 #distribution 
 {
 	padding-left:2%;
 	font-size:1.5em;
-	margin-top:0%;
+	margin-top:12%;
 	margin-left:4.5%;
 }
 #citationslink
