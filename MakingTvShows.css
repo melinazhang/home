@@ -521,14 +521,34 @@ h2
 {
 	padding-right:10%;
 }
-#citationslist
+#citations
 {
 	line-height:150%;
+	background-color:#CEADA6;
+	margin-left:20%;
+	margin-right:20%;
+	border-color:#A47D64;
+	border-width:10px;
+	border-style:solid;
+	padding-left:3.5%;
 }
-.citations
+.citationslist
 {
 	margin-top:0%;
-	padding-top:5%;
+	padding-top:2%;
+	background-color:#BDC7B0;
+	padding-left:5%;
+	padding-right:5%;
+	padding-bottom:2%;
+
+}
+#citationslist
+{
+	margin-left:20%;
+	margin-right:20%;
+	border-color:#8F9772;
+	border-style:solid;
+	border-width:15px;
 }
 p
 {
