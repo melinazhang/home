@@ -535,21 +535,25 @@ h2
 .citationslist
 {
 	margin-top:0%;
+	width: 60%;
+	margin-left:14%;
 	padding-top:2%;
 	background-color:#BDC7B0;
 	padding-left:5%;
 	padding-right:5%;
 	padding-bottom:2%;
-
-}
-#citationslist
-{
-	margin-left:20%;
-	margin-right:20%;
-	border-color:#8F9772;
+	align:center;
+	border-color:#8f9772;
 	border-style:solid;
 	border-width:15px;
+
 }
+
+.citationslist li{
+	padding: 10px;
+
+}
+
 p
 {
 	margin-left:5%;
